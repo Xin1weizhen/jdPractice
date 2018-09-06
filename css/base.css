@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.w {
+    width: 1190px;
+    margin: auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+li {
+    list-style: none;
+}
+
+i {
+    font-family: "icomoon";
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?p66o33');
+    src:  url('../fonts/icomoon.eot?p66o33#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?p66o33') format('truetype'),
+    url('../fonts/icomoon.woff?p66o33') format('woff'),
+    url('../fonts/icomoon.svg?p66o33#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #f0f3ef;
+}
+
+.J_event {
+    /*width: 100%;*/
+    height: 80px;
+    background-color: #000b0f;
+}
+
+.grid {
+    height: 80px;
+    position: relative;
+}
+
+.grid a {
+    /*width: 100%;*/
+    height: 80px;
+    display: block;
+    background: url("../images/5b6d0374N33c9f199.jpg") no-repeat;
+}
+
+.grid i {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background: rgb(45,45,45);
+    font-family:icomoon;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.shortcut {
+    height: 30px;
+    border-bottom: 1px solid #ddd;
+    background-color: #e3e4e5;
+    color: #999;
+    font-size: 12px;
+    line-height: 30px;
+    overflow: hidden;
+}
+
+.shortcut .fl li{
+    margin-left: 200px;
+}
+
+.shortcut .fl i{
+    font-family:icomoon;
+    color: #f10215;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.shortcut .fr li{
+    float: left;
+    margin-right: 8px;
+}
+
+.shortcut .fr .spacer{
+    width: 1px;
+    height: 10px;
+    background-color: #ccc;
+    margin: 11px 5px 0;
+}
+
+.shortcut .fr a{
+    padding-left: 8px;
+    text-decoration: none;
+    color: #999;
+}
+
+.shortcut .fr a:hover {
+    color: #f10215;
+}
+
+.shortcut .fr .regist{
+    color: #f10215;
+}
+
+.shortcut .fr .dropdown{
+    padding-right: 15px;
+    position: relative;
+}
+
+.shortcut .dropdown i {
+    font-size: 16px;
+    position: absolute;
+    top: -2px;
+    right: -2px;
+}
+
+.header {
+    height: 140px;
+}
+
+.header .w {
+    height: 140px;
+    position: relative;
+}
+
+.logo {
+    width: 190px;
+    padding-top: 20px;
+}
+
+.logo a {
+    width: 190px;
+    height: 170px;
+    display: block;
+    background: url("../images/sprite.head.png") no-repeat;
+    text-decoration: none;
+    border-bottom: 1px solid #ededed;
+    box-shadow: 0 -12px 10px rgba(0,0,0,.2);
+    position: absolute;
+    top: -31px;
+    left: 0;
+}
+
+.logo h2 {
+    margin-left: -9999px;
+}
+
+.search {
+    width: 550px;
+    height: 35px;
+    position: absolute;
+    top: 25px;
+    left: 320px;
+}
+
+.search input {
+    width: 450px;
+    height: 25px;
+    padding: 4px 44px 4px 4px;
+    outline: none;
+    font-size: 14px;
+    font-family: Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif;
+    border: 1px solid transparent;
+}
+
+.search span {
+    width: 20px;
+    height: 15px;
+    font-family: "icomoon";
+    color: #ccc;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 65px;
+}
+
+.search button {
+    width: 50px;
+    height: 35px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #f10215;
+    font-size: 20px;
+    font-weight: 200;
+    color: #fff;
+    line-height: 35px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.settleup {
+    width: 190px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 14px;
+    color: #f10215;
+    border: 1px solid #e3e4e5;
+    text-align: center;
+    line-height: 33px;
+    position: absolute;
+    top: 25px;
+    right: 99px;
+}
+
+.settleup a {
+    color: #f10215;
+    text-decoration: none;
+}
+
+.settleup .shopping-count {
+    min-width: 12px;
+    color: #fff;
+    padding: 1px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 12px;
+    background-color: #f10215;
+    border-radius: 7px;
+    position: absolute;
+    top: 5px;
+    left: 140px;
+}
+
+.hotwords {
+    width: 550px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    position: absolute;
+    top: 65px;
+    left: 320px;
+}
+
+.hotwords a {
+    display: block;
+    float: left;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #666;
+}
+
+.hotwords a:hover {
+    color: #f10215;
+}
+
+.hotwords a:first-child {
+    width: 70px;
+    color: #f10215;
+}
+
+.navitems {
+    width: 790px;
+    height: 40px;
+    padding-top: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #666;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 200px;
+}
+
+.navitems ul {
+    float: left;
+}
+
+.navitems li {
+    margin-left: 30px;
+    float: left;
+}
+
+.navitems li a {
+    height: 40px;
+    display: block;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+.navitems li img {
+    width: 42px;
+    height: 15px;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    left: 325px;
+}
+
+.navitems li a:hover {
+    color: #f10215;
+}
+
+.navitems .spacer {
+    width: 1px;
+    height: 10px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: -10px;
+    float: left;
+    background-color: #ccc;
+}
+
+.treasure {
+    width: 190px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+
+.treasure a {
+    width: 190px;
+    height: 40px;
+    display: block;
+    background: url("../images/5b6d03adN59a8e560.gif") center no-repeat;
+}
+
+.footer .mod-service {
+    padding: 30px 0;
+    height: 103px;
+    border-bottom: 1px solid #dedede;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.footer .mod-service li{
+    padding: 0 0 50px 80px;
+    width: 297px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.footer .mod-service h5{
+    width: 36px;
+    height: 42px;
+    display: inline-block;
+    background: url("../images/sprite.footer.png") no-repeat 0 -192px;
+    position: absolute;
+    top: 30px;
+    left: 35px;
+}
+
+.footer .mod-service .kuai {
+    background-position: -41px -192px;
+    left: 330px;
+}
+
+.footer .mod-service .hao {
+    background-position: -82px -192px;
+    left: 625px;
+}
+
+.footer .mod-service .sheng {
+    background-position: -123px -192px;
+    left: 925px;
+}
+
+.footer .mod-service p{
+    height: 42px;
+    line-height: 42px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #444;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .yellow {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+<input type="button" value="pony">
+<input type="button" value="pony">
+<input type="button" value="pony">
+<input type="button" value="pony">
+<input type="button" value="pony">
+<input type="button" value="pony">
+<input type="button" value="pony">
+<a href="images/sprite.footer.png"><img src="images/5b6ab961Nb79e4b05.png" alt="" id="pic"></a>
+<ul id="u">
+    <li>卡布达</li>
+    <li>丸子轮</li>
+    <li>金贵次郎</li>
+    <li>鲨鱼拉杰</li>
+    <li>写字楼来</li>
+    <li>蜘蛛枕头</li>
+</ul>
+<script>
+    function my$ (id) {
+        return document.getElementById(id);
+    }
+    var inputObj=document.getElementsByTagName("input");
+    for (var i=0;i<inputObj.length;i++) {
+        inputObj[i].onclick=function () {
+            for (var j=0;j<inputObj.length;j++) {
+                inputObj[j].value="pony";
+            }
+            this.value="jack";
+        }
+    }
+
+    my$("pic").onclick=function () {
+        this.src="images/sprite.footer.png";
+        return false;
+    }
+
+    var list=my$("u").getElementsByTagName("li");
+
+    for (var k=0;k<list.length;k++){
+        list[j].onmouseover=function () {
+            this.className="yellow";
+        }
+        list[j].onmouseout=function () {
+            this.className="";
+        }
+
+        if (k%2==0) {
+            list[k].style.backgroundColor="red";
+        }
+        else {
+            list[k].style.backgroundColor="green";
+        }
+    }
+
+    for (var j = 0; j < list.length; j++) {
+        list[j].onmouseover = function () {
+            this.className = "yellow";
+        }
+        list[j].onmouseout = function () {
+            this.className = "";
+        }
+    }
+
+
+</script>
+</body>
+</html>

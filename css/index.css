@@ -1,0 +1,280 @@
+
+.fs {
+    height: 480px;
+}
+
+.fs .inner {
+    height: 480px;
+}
+
+.fs-col1 {
+    width: 190px;
+    height: 480px;
+    float: left;
+    background-color: #fff;
+    margin-right: 10px;
+}
+
+.fs-col1 ul {
+    margin-top: 10px;
+}
+
+.fs-col1 li {
+    height: 27px;
+    color: #626262;
+    font-size: 12px;
+    padding-left: 18px;
+    line-height: 27px;
+}
+
+.fs-col1 li a {
+    font-size: 14px;
+    color: #626262;
+    text-decoration: none;
+}
+
+.fs-col1 li a:hover {
+    color: #f10215;
+}
+
+.fs-col1 li:hover {
+    background-color: #ccc;
+}
+
+.fs-col2 {
+    width: 590px;
+    height: 480px;
+    float: left;
+    margin-right: 10px;
+    position: relative;
+}
+
+.fs-col2 img {
+    margin-top: 10px;
+}
+
+.fs-col2 button {
+    width: 24px;
+    height: 40px;
+    background-color: rgba(0,0,0,.2);
+    color: hsla(0,0%,100%,.4);
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.prev {
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.next {
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.indicators {
+    position: absolute;
+    left: 46px;
+    bottom: 20px;
+}
+
+.indicators li {
+    width: 18px;
+    height: 18px;
+    margin-right: 2px;
+    border-radius: 50%;
+    background-color: #ccc;
+    float: left;
+}
+
+.fs-col3 {
+    width: 190px;
+    height: 480px;
+    float: left;
+    margin-right: 10px;
+}
+
+.rec-item {
+    height: 150px;
+    margin-top: 10px;
+}
+
+.fs-col4 {
+    width: 190px;
+    height: 480px;
+    overflow: hidden;
+    float: left;
+}
+
+.user {
+    height: 150px;
+    margin-top: 10px;
+    background-color: #fff;
+    padding-top: 62px;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+}
+
+.user a {
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #888;
+    text-decoration: none;
+}
+
+.user a:hover {
+    color: #f10215;
+}
+
+.user p {
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #888;
+}
+
+.user .user-avatar {
+    width: 55px;
+    height: 55px;
+    display: block;
+    border-radius: 50%;
+    margin-left: -34px;
+    border: 5px solid #e3e1df;
+    box-shadow: 3px 6px 25px #c3c3c3;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    top: -10px;
+}
+
+.user a img {
+    width: 55px;
+    height: 55px;
+}
+
+.user .profit {
+    width: 70px;
+    height: 25px;
+    display: inline-block;
+    border-radius: 13px;
+    background-color: #fff;
+    color: #f10215;
+    margin: 10px 5px;
+    text-align: center;
+    line-height: 25px;
+    box-shadow: 6px 8px 20px rgba(45,45,45,.15);
+}
+
+.user .plus {
+    background-color: #363634;
+    color: #e5d790;
+}
+
+.user .profit:hover {
+    background-color: #f10215;
+    color: #fff;
+}
+
+.news {
+    height: 130px;
+    background-color: #fff;
+    font-size: 12px;
+}
+
+.news a {
+    color: #333;
+}
+
+.head-item {
+    padding: 0 15px;
+}
+
+
+.head-item:first-child {
+    border-right: 1px solid #dfe0e1;
+}
+
+.tab-head {
+    padding: 8px 0 0;
+    line-height: 18px;
+    position: relative;
+}
+
+.tab-active {
+    width: 27px;
+    height: 2px;
+    margin-left: 13px;
+    background: #f0f3ef;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+}
+
+.tab-head .more {
+    color: #666;
+    position: absolute;
+    right: 12px;
+    top: 8px;
+}
+
+.tab-head .more:hover {
+    color: #f10215;
+}
+
+.tab-content {
+    height: 88px;
+    margin: 0 15px;
+    padding-top: 8px;
+}
+
+.tab-content li {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #999;
+    line-height: 22px;
+    max-width: 160px;
+}
+
+.tab-content li a{
+    color: #999;
+}
+
+.tab-content li a:hover{
+    color: #f10215;
+}
+
+.service {
+    height: 190px;
+    padding: 18px 11px 11px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.service li {
+    width: 42px;
+    height: 55px;
+    text-align: center;
+    float: left;
+}
+
+.service li span {
+    height: 25px;
+    line-height: 25px;
+    display: block;
+    font-size: 12px;
+    color: #bea68d;
+    border-bottom: 2px solid #fff;
+}
+
+.service li:hover span {
+    color: #f10215;
+}
